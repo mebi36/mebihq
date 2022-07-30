@@ -50,7 +50,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "corsheaders"
+    "corsheaders",
+    "wagtail_headless_preview"
 ]
 
 MIDDLEWARE = [
@@ -65,6 +66,15 @@ MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "wagtail.contrib.redirects.middleware.RedirectMiddleware",
 ]
+
+WAGTAIL_HEADLESS_PREVIEW = {
+    "CLIENT_URLS": {
+        "default": "http://localhost:8020",
+    },
+    "LIVE_PREVIEW": False,
+    "SERVE_BASE_URL": None,
+    "REDIRECT_ON_PREVIEW": False,
+}
 
 # CORS_ALLOWED_ORIGINS = ["*"]
 CORS_ORIGIN_ALLOW_ALL = True
