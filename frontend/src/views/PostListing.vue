@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="contiainer">
 <div v-for="item in posts" v-bind:key="item.id">
     <router-link :to="postLink(item)">
     <h2>{{item.title}}</h2>
@@ -22,7 +22,7 @@ export default {
   },
   methods: {
       postLink(post){
-          return "/post/" + post.id + "/" + post.meta.slug
+          return "/post/" + post.meta.slug
       }
   },
   mounted(){
