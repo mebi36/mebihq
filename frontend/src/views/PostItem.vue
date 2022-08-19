@@ -1,17 +1,24 @@
 <template>
-    <div>
-        <div v-if="post" style="color: var(--bs-indigo)">
-            <h1 class="text-primary">{{post.title}}</h1>
-            <h3 class="bg-success">{{post.intro}}</h3>
-            <img v-if="post.image_thumbnail" :src="axios_root_url + post.image_thumbnail.url" :width="post.image_thumbnail.width" :height="post.image_thumbnail.height">
+    <div class="m-3 p-5">
+        <div class="text-start" v-if="post">
+            <h1 class="text-center mb-5">{{post.title}}</h1>
+            <div class="bg-white bg-opacity-10 p-5 mb-5">
+                <p class="lead">{{post.intro}}</p>
+            </div>
+            <div class="text-center">
+                <img v-if="post.image_thumbnail" :src="axios_root_url + post.image_thumbnail.url" :width="post.image_thumbnail.width" :height="post.image_thumbnail.height">
+            </div>
             <span v-for="block in post.body" :key="block.id">
-                <div v-if="block.type == 'heading'" class="text-danger">
-                    <h2>{{ block.value }}</h2>
+                <div class="text-warning mb-2" v-if="block.type == 'heading'">
+                    <h4>{{ block.value }}</h4>
                 </div>
-                <div v-else-if="block.type == 'image'">
-                    <h2>image: {{block.value }}</h2>
+                <div class="text-center mb-2" v-else-if="block.type == 'image'">
+                    <figure>
+                        <img class="img-fluid" :src="block.value.file" :alt="block.value.title" style="max-height: 300px;">
+                        <figcaption class="figure-caption text-warning">{{block.value.title}}</figcaption>
+                    </figure>                    
                 </div>
-                <div v-else-if="block.type == 'paragraph'">
+                <div class="mb-2" v-else-if="block.type == 'paragraph'">
                     <p v-html="block.value"></p>
                 </div>
             </span>

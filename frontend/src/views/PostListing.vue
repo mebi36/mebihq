@@ -1,13 +1,17 @@
 <template>
-<div class="contiainer">
-<div v-for="item in posts" v-bind:key="item.id">
-    <router-link :to="postLink(item)">
-    <h2>{{item.title}}</h2>
-    </router-link>
-    <p>{{item.intro}}</p>
-    <br>
-    <p v-html="posts.body"></p>
-</div>
+<div class="m-5 p-5">
+  <h1>Posts</h1>
+  <div class="row">
+    <span class="fw-bold text-start mb-5">Categories: </span>
+  </div>
+  <div class="text-start" v-for="item in posts" v-bind:key="item.id">
+      <router-link :to="postLink(item)">
+      <h2>{{item.title}}</h2>
+      </router-link>
+      <p>{{item.intro}}</p>
+      <br>
+      <p v-html="posts.body"></p>
+  </div>
 </div>
 </template>
 
