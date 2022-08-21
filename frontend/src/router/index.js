@@ -2,8 +2,8 @@ import { createWebHistory, createRouter } from "vue-router"
 
 import PostItem from "@/views/PostItem.vue"
 import PostListing from "@/views/PostListing.vue"
-import About from "@/views/About.vue"
 import Home from "@/views/Home.vue"
+import Resume from "@/views/Resume.vue"
 import NProgress from "nprogress"
 const routes = [
     {
@@ -17,9 +17,9 @@ const routes = [
         component: PostListing,
     },
     {
-        path: "/about",
-        name: "About",
-        component: About,
+        path: "/resume",
+        name: "Resume",
+        component: Resume,
     },
     {
         path: "/post/:slug",
