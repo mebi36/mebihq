@@ -42,6 +42,8 @@ export default {
       }
   },
   mounted(){
+    document.title = this.$route.name + ' | MebiHQ'
+
     this.loading_api = true
     axios
     .get('/api/v2/pages/?type=blog.BlogPage&fields=intro')

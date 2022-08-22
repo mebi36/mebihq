@@ -27,7 +27,10 @@
 import LatestPosts from '../components/home/LatestPosts.vue'
 
 export default {
-    components: {LatestPosts}
+    components: {LatestPosts},
+    mounted() {
+    document.title = this.$route.name + ' | MebiHQ'
+    }
 }
 </script>
 <style>

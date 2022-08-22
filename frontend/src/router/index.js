@@ -13,7 +13,7 @@ const routes = [
     },
     {
         path: "/posts",
-        name: "PostListing",
+        name: "Blog Posts",
         component: PostListing,
     },
     {
@@ -23,7 +23,7 @@ const routes = [
     },
     {
         path: "/post/:slug",
-        name: "PostItem",
+        name: "Post",
         component: PostItem,
     },
 ]

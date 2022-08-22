@@ -50,6 +50,7 @@ export default {
                       this.post = post
                   }
               }
+              document.title = this.post.title + ' | MebiHQ'
           })
           .catch(error => {
               this.errors = error
@@ -58,6 +59,7 @@ export default {
       }
   },
   mounted(){
+      document.title = this.$route.name + ' | MebiHQ'
       this.getBlogPost()
   }
 }

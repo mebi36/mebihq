@@ -32,7 +32,8 @@ export default {
     }
   },
   mounted(){
-    axios
+
+axios
     .get('http://localhost:8009/api/v2/pages/4')
     .then(response => (this.posts = response.data))
     .catch(error => {
@@ -40,7 +41,7 @@ export default {
         console.log(error.response)
       }
     })
-  }
+  },
 }
 </script>
 
