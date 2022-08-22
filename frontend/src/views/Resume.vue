@@ -3,13 +3,15 @@
     <div class="col-lg-3 bg-white p-5 affix" style="color:#2c3e50;">
         <img src="../assets/profile-photo.jpg" class="img-fluid rounded-circle" alt="Personal Photo" style="max-height: 200px;">
         <div>
-        <div class="py-3 h2 fw-bold">Chukwudumebi Nwobi</div>
-        <p class="lead fst-italic mb-4">Full-stack developer with an Engineering background</p>
-        <div class="d-flex justify-content-center mb-4">
-            <a href="https://linkedin.com/in/chukwudumebi-nwobi"><BIconLinkedin class="h4 contact-icon" /></a>
-            <a href="tel:+234-706-482-8313"><BIconTelephoneFill class="contact-icon h4 ms-3" /></a>
-            <a href="mailto:chukwudumebinwobi@gmail.com"><BIconEnvelope class="contact-icon h4 ms-3" /></a>
-        </div>
+            <div class="py-3 h2 fw-bold">Chukwudumebi Nwobi</div>
+            <p class="lead fst-italic mb-4">I am an Engineer with interest in Software Engineering, Automation, and Artificial Intelligence.</p>
+            <div class="d-flex justify-content-center mb-4">
+                <a href="https://linkedin.com/in/chukwudumebi-nwobi"><BIconLinkedin class="h4 contact-icon" /></a>
+                <a href="https://github.com/mebi36"><BIconGithub class="contact-icon h4 ms-3" /></a>
+                <a href="mailto:chukwudumebinwobi@gmail.com"><BIconEnvelope class="contact-icon h4 ms-3" /></a>
+                <a href="tel:+234-706-482-8313"><BIconTelephoneFill class="contact-icon h4 ms-3" /></a>
+                <a href="../assets/chukwudumebi_nwobi_resume.pdf" download><BIconFileEarmarkPdfFill class="contact-icon h4 ms-3" /></a>
+            </div>
         </div>
     </div>
     <div class="col-lg-9 p-5">
@@ -36,7 +38,7 @@
                     <span class="me-3"><BIconCheck class="lead me-1"/>VueJS</span>
                     <span class="me-3"><BIconCheck class="lead me-1"/>CSS</span>
                     <span class="me-3"><BIconCheck class="lead me-1"/>Bootstrap</span>
-                    <span class="me-3"><BIconCheck class="lead me-1"/>C</span>
+                    <span class="me-3"><BIconCheck class="lead me-1"/>C/C++</span>
                     </p>
 
             </div>
@@ -125,7 +127,9 @@ import {
     BIconHammer, 
     BIconPencilSquare,
     BIconPersonFill,
-    BIconEnvelope
+    BIconEnvelope,
+    BIconFileEarmarkPdfFill,
+    BIconGithub
 } from 'bootstrap-icons-vue'
 
 export default {
@@ -139,7 +143,9 @@ export default {
         BIconHammer, 
         BIconPencilSquare,
         BIconPersonFill,
-        BIconEnvelope
+        BIconEnvelope,
+        BIconFileEarmarkPdfFill,
+        BIconGithub
     }
 }
 </script>

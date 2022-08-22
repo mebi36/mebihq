@@ -1,5 +1,5 @@
 <template>
-<div class="m-5 p-5">
+<div class="m-5">
   <h1><span class="text-warning me-3"><BIconJournalCode /></span>Posts</h1>
 
   <LoadingAnimation :visible="loading_api" />
