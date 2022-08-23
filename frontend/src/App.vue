@@ -34,7 +34,7 @@ export default {
   mounted(){
 
 axios
-    .get('http://localhost:8009/api/v2/pages/4')
+    .get('/api/v2/pages/4')
     .then(response => (this.posts = response.data))
     .catch(error => {
       if(error.response) {
