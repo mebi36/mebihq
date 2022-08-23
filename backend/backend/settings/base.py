@@ -172,7 +172,8 @@ STATIC_URL = "/static/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = "/media/"
 
-
+VUE_IMG_ROOT = os.path.join(BASE_DIR, "static", "vue", "dist", "img")
+VUE_IMG_URL = "/img/"
 # Wagtail settings
 
 WAGTAIL_SITE_NAME = "Mebi HQ"
