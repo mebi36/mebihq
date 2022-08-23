@@ -1,7 +1,7 @@
 <template>
 <div class="row" style="min-height:100vh;">
     <div class="col-lg-3 bg-white p-5 affix" style="color:#2c3e50;">
-        <img src="../assets/profile-photo.jpg" class="img-fluid rounded-circle" alt="Personal Photo" style="max-height: 200px;">
+        <img src="/static/assets/profile-photo.jpg" class="img-fluid rounded-circle" alt="Personal Photo" style="max-height: 200px;">
         <div>
             <div class="py-3 h2 fw-bold">Chukwudumebi Nwobi</div>
             <p class="lead fst-italic mb-4">I am an Engineer with interest in Software Engineering, Automation, and Artificial Intelligence.</p>

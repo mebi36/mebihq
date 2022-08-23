@@ -2,7 +2,7 @@
     <div class="vw-100">
         <div class="row pt-5 px-5">
             <div class="col-md">
-                <img src="../assets/building.svg" alt="" class="img-fluid">
+                <img src="/static/assets/building.svg" alt="" class="img-fluid">
             </div>
             <div class="col-md align-self-center">
                 <div>
