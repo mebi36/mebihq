@@ -9,7 +9,6 @@ import { Vue3ProgressPlugin } from '@marcoschulte/vue3-progress'
 import 'bootstrap'
 
 // axios.defaults.baseURL = 'http://localhost:8009'
-// axios.defaults.baseURL = 'http://mebihq.herokuapp.com'
 createApp(App)
 .use(Vue3ProgressPlugin)
 .use(router)
