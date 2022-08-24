@@ -4,7 +4,9 @@ import PostItem from "@/views/PostItem.vue"
 import PostListing from "@/views/PostListing.vue"
 import Home from "@/views/Home.vue"
 import Resume from "@/views/Resume.vue"
+import PageNotFound from "@/views/PageNotFound.vue"
 import NProgress from "nprogress"
+
 const routes = [
     {
         path: "/",
@@ -26,6 +28,11 @@ const routes = [
         name: "Post",
         component: PostItem,
     },
+    {
+        path: "/:catchAll(.*)",
+        name: "Page Not Found",
+        component: PageNotFound,
+    }
 ]
 
 const router = createRouter({
