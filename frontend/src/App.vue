@@ -57,7 +57,7 @@ axios
 .parent_block {
     min-height: 100vh;
     max-width: 100vw;
-    overflow-x:none;
+    overflow-x: hidden;
 }
 
 .parent_block a {

@@ -19,7 +19,7 @@
             <div class="mb-5">
                 <h2><span class="me-2 text-warning"><BIconPersonFill /></span>Personal Information</h2>
                 <hr>
-                <div class="">
+                <div class="text-start">
                     <p class="pt-1">
                         <ul style="list-style:none;">
                             <li><strong class="me-1">Country of Residence:</strong>Nigeria</li>
@@ -31,15 +31,15 @@
             <div class="mb-5">
                 <h2><span class="me-2 text-warning"><BIconHammer /></span>Skills</h2>
                 <hr>
-                <p class="pt-1">
-                    <span class="me-3"><BIconCheck class="lead me-1"/>Python</span>
-                    <span class="me-3"><BIconCheck class="lead me-1"/>Django</span>
-                    <span class="me-3"><BIconCheck class="lead me-1"/>JavaScript</span>
-                    <span class="me-3"><BIconCheck class="lead me-1"/>VueJS</span>
-                    <span class="me-3"><BIconCheck class="lead me-1"/>CSS</span>
-                    <span class="me-3"><BIconCheck class="lead me-1"/>Bootstrap</span>
-                    <span class="me-3"><BIconCheck class="lead me-1"/>C/C++</span>
-                    </p>
+                <div class="d-block d-md-flex pt-1 justify-content-center">
+                    <div class="me-3"><BIconCheck class="lead me-1"/>Python</div>
+                    <div class="me-3"><BIconCheck class="lead me-1"/>Django</div>
+                    <div class="me-3"><BIconCheck class="lead me-1"/>JavaScript</div>
+                    <div class="me-3"><BIconCheck class="lead me-1"/>VueJS</div>
+                    <div class="me-3"><BIconCheck class="lead me-1"/>CSS</div>
+                    <div class="me-3"><BIconCheck class="lead me-1"/>Bootstrap</div>
+                    <div class="me-3"><BIconCheck class="lead me-1"/>C/C++</div>
+                </div>
 
             </div>
             <div class="mb-5">
