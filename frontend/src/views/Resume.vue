@@ -10,7 +10,7 @@
                 <a href="https://github.com/mebi36"><BIconGithub class="contact-icon h4 ms-3" /></a>
                 <a href="mailto:chukwudumebinwobi@gmail.com"><BIconEnvelope class="contact-icon h4 ms-3" /></a>
                 <a href="tel:+234-706-482-8313"><BIconTelephoneFill class="contact-icon h4 ms-3" /></a>
-                <a href="~@/assets/chukwudumebi_nwobi_resume.pdf" download><BIconFileEarmarkPdfFill class="contact-icon h4 ms-3" /></a>
+                <a href="/assets/chukwudumebi_nwobi_resume.pdf" download><BIconFileEarmarkPdfFill class="contact-icon h4 ms-3" /></a>
             </div>
         </div>
     </div>
