@@ -146,6 +146,9 @@ export default {
         BIconEnvelope,
         BIconFileEarmarkPdfFill,
         BIconGithub
+    },
+    mounted() {
+        document.title = this.$route.name + ' | MebiHQ'
     }
 }
 </script>

@@ -16,5 +16,8 @@ export default {
     components: {
         BIconExclamationTriangleFill
     },
+    mounted() {
+        document.title = this.$route.name + ' | MebiHQ'
+    }
 }
 </script>
