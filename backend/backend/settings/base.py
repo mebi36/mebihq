@@ -156,8 +156,8 @@ STATICFILES_FINDERS = [
 ]
 
 STATICFILES_DIRS = [
-    os.path.join(PROJECT_DIR, "static"),
-    # os.path.join(BASE_DIR, "static"),
+    # os.path.join(PROJECT_DIR, "static"),
+    os.path.join(BASE_DIR, "static_files"),
 
 ]
 
@@ -172,6 +172,11 @@ STATIC_URL = "/static/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = "/media/"
 
+VUE_IMG_ROOT = os.path.join(BASE_DIR, "static", "vue", "dist", "img")
+VUE_IMG_URL = "/img/"
+
+ASSETS_ROOT = os.path.join(BASE_DIR, "static", "assets")
+ASSETS_URL = "/assets/"
 
 # Wagtail settings
 
