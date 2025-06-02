@@ -1,4 +1,5 @@
 module.exports = {
-    outputDir: '../backend/static_files/vue/dist',
+    outputDir: 'dist',
+    publicPath: '/static/vue/dist/',
     filenameHashing: false
 }

@@ -100,13 +100,26 @@
                 <hr>
                 <div class="text-start pt-1">
                     <ul style="list-style:none;">
-                        <li>I currently work as a Graduate Assistant at the University of Nigeria</li>
+                        <li>I currently work as a Contract Software Engineer for an Estonia-based firm in the financial industry</li>
                         <div>
                             <div>Responsibilities:</div>
                             <ul>
-                                <li>Teaching Assistant for undergraduate-level courses including an introductory course in computer programming for sophomores, a course on electronic instrumentation and measurement, and a 300-level course on scientific programming.</li>
-                                <li>Contribute to the development and maintenance of the Department's result management system since the inception of the system.</li>
-                                <li>Provide technical support for virtual and hybrid events of the Department.</li>
+                                <li>Built data pipelines capable of handling larger-than-memory data in Python and SQL.</li>
+                                <li>Modified existing software and achieved significant performance improvement. Sometimes rewriting performance critical portions of a solution in Cython or rust to ensure performance gains.</li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+                <div class="text-start pt-1">
+                    <ul style="list-style:none;">
+                        <li>Lecturer at the University of Nigeria (February 2018 to November 2022)</li>
+                        <div>
+                            <div>Responsibilities:</div>
+                            <ul>
+                                <li>Taught undergraduate-level courses such as an introductory course in computer programming for sophomores, measurement and instrumentation (300-level course), and System Programming (300-level course) to over one thousand students</li>
+                                <li>Contributed to the development and maintenance of a result management system for the Department of Electronic Engineering</li>
+                                <li>Provided technical support for virtual and hybrid events of the Department</li>
+                                <li>Involved in the management of the Department’s website</li>
                             </ul>
                         </div>
                     </ul>

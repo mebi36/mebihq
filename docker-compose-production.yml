@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  frontend:
+    image: node:16
+    working_dir: /app
+    command: sh -c "npm install -g npm@8.19.4 && npm install && npm run build"
+    volumes:
+      - ./frontend:/app
+      # - dist-data:/app/dist  # Share build output with backend
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /app/backend
+    volumes:
+      - ./backend:/app/backend        # Bind backend code only
+      - ./frontend/dist:/app/backend/static # Use Vue's dist in Django static
+    ports:
+      - "8087:8000"
+    depends_on:
+      - frontend
+    environment:
+      - DJANGO_SETTINGS_MODULE=backend.settings.dev
+
+# volumes:
+#   dist-data:

@@ -4,6 +4,7 @@ import PostItem from "@/views/PostItem.vue"
 import PostListing from "@/views/PostListing.vue"
 import Home from "@/views/Home.vue"
 import Resume from "@/views/Resume.vue"
+import ProjectDemos from "../views/ProjectDemos.vue"
 import NProgress from "nprogress"
 const routes = [
     {
@@ -25,6 +26,11 @@ const routes = [
         path: "/post/:slug",
         name: "Post",
         component: PostItem,
+    },
+    {
+        path: "/demos",
+        name: "Demos",
+        component: ProjectDemos,
     },
 ]
 

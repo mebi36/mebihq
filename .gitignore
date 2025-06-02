@@ -10,7 +10,6 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -135,3 +134,4 @@ Arsha/
 frontend_nuxt/
 NiceAdmin/
 node_modules/
+env_mhq/
