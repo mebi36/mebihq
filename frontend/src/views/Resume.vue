@@ -3,7 +3,7 @@
     <div class="col-lg-3 bg-white p-5 affix" style="color:#2c3e50;">
         <img src="~@/assets/img/profile-photo.jpg" class="img-fluid rounded-circle" alt="Personal Photo" style="max-height: 200px;">
         <div>
-            <div class="py-3 h2 fw-bold">Chukwudumebi Nwobi</div>
+            <div class="py-3 h2 fw-bold">Chukwudumebi Gibson Nwobi</div>
             <p class="lead fst-italic mb-4">I am an Engineer with interest in Software Engineering, Automation, and Artificial Intelligence.</p>
             <div class="d-flex justify-content-center mb-4">
                 <a href="https://linkedin.com/in/chukwudumebi-nwobi"><BIconLinkedin class="h4 contact-icon" /></a>

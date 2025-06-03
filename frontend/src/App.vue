@@ -12,7 +12,7 @@
       </div>
       <div class="footer-bottom border-top p-3">
         <div class="text-center">
-          &copy;<span class="ms-2"><strong>MebiHQ 2022</strong></span>
+          &copy;<span class="ms-2 fs-5"><strong>MebiHQ 2022</strong></span>
         </div>
       </div>
     </div>
