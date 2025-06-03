@@ -8,7 +8,7 @@ DEBUG = True
 SECRET_KEY = "django-insecure-@jyt$g=b*8$dypay&zbpff#y*vrum9fv=#xyyuwybd*9grggk^"
 
 # SECURITY WARNING: define the correct hosts in production!
-ALLOWED_HOSTS = ["mebihq.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ["mebihq.herokuapp.com", "localhost", "35.172.194.18"]
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
