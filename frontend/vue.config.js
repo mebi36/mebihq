@@ -1,5 +1,5 @@
 module.exports = {
     outputDir: 'dist',
-    publicPath: '/static/vue/dist/',
+    publicPath: '/home/mebinwobi/Documents/py_projects/mebihq/frontend/dist/',
     filenameHashing: false
 }

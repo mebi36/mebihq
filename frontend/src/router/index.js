@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from "vue-router"
+import { createRouter } from "vue-router"
 
 import PostItem from "@/views/PostItem.vue"
 import PostListing from "@/views/PostListing.vue"
@@ -35,7 +35,8 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    // history: createWebHistory(),
+    mode: "hash",
     routes
 })
 
